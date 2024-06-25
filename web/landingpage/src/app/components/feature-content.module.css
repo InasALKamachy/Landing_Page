@@ -1,0 +1,195 @@
+.featureContent {
+  position: relative;
+  /* other styles */
+}
+
+
+
+.playButton {
+  position: absolute;
+  top: -1500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.videoFrame {
+  width: 100%;
+  height: 600px; /* Adjust as needed */
+  border: none;
+  position: absolute;
+  top: -1500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.featureImage,
+.usceArcuTurpis {
+  margin: 0 !important;
+  position: absolute;
+}
+.featureImage {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(234, 240, 243, 0.3),
+    rgba(237, 246, 249, 0)
+  );
+}
+.usceArcuTurpis {
+  width: 443px;
+  height: 192px;
+  top: -141px;
+  right: 613px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.phasellusQuisDignissim,
+.proinPharetraLectus {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  z-index: 1;
+}
+.phasellusQuisDignissim {
+  height: 132px;
+  font-family: var(--font-univers-55);
+  display: inline-block;
+}
+.featureDescriptionContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--paragraph-bold-size);
+  font-family: var(--paragraph-bold);
+}
+.frameChild {
+  height: 64px;
+  width: 243px;
+  position: relative;
+  background-color: var(--red);
+  display: none;
+}
+.readAboutOperations {
+  position: relative;
+  font-size: var(--paragraph-bold-size);
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: center;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-14xl) var(--padding-4xl);
+  background-color: var(--red);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangleParent:hover {
+  background-color: var(--color-palevioletred-100);
+}
+.maskGroupIcon {
+  width: 522px;
+  height: 601px;
+  position: absolute;
+  margin: 0 !important;
+  top: -178px;
+  left: 199px;
+  object-fit: cover;
+  z-index: 1;
+}
+.featureContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-56xl) var(--padding-180xl) var(--padding-159xl)
+    var(--padding-779xl);
+  position: relative;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 800px) {
+  .usceArcuTurpis {
+    font-size: var(--font-size-13xl);
+  }
+  .featureContent {
+    gap: var(--gap-base);
+    padding: var(--padding-30xl) var(--padding-80xl) var(--padding-97xl)
+      var(--padding-380xl);
+    box-sizing: border-box;
+  }
+  .videoFrame {
+     top: -1984px;
+
+  }
+}
+@media screen and (max-width: 450px) {
+  .usceArcuTurpis {
+    font-size: var(--h3-size);
+  }
+  .featureContent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  /* feature-content.module.css */
+/* feature-content.module.css */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 20px 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  
+ 
+  width: 100%;
+  height: 100%;
+}
+ .videoFrame {
+  top: -3183px;
+}
+.playButton {
+  top: -3183px;
+
+}
+
+
+}

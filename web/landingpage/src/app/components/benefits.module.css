@@ -1,0 +1,443 @@
+.bgImageAndGrid,
+.border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bgImageAndGrid {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.border {
+  border-radius: 50%;
+  border: 0 solid var(--white);
+  box-sizing: border-box;
+}
+.plusChild {
+  top: 0;
+  left: 12.5px;
+  background-color: var(--white);
+  width: 1.9px;
+}
+.plus,
+.plusChild,
+.plusItem {
+  position: absolute;
+  height: 26.7px;
+  display: none;
+}
+.plusItem {
+  top: 12.4px;
+  left: 26.7px;
+  background-color: var(--white);
+  width: 1.9px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.plus {
+  top: 19.1px;
+  left: 18.1px;
+  width: 26.7px;
+  z-index: 1;
+}
+.plusIcon {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  z-index: 1;
+}
+.alwaysChargedAt {
+  margin: 0;
+  align-self: stretch;
+  height: 58px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.benefit,
+.plusIconParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.plusIconParent {
+  width: 226px;
+  gap: var(--gap-57xl);
+}
+.benefit {
+  width: 297px;
+  padding: var(--padding-471xl) 0 0;
+  box-sizing: border-box;
+}
+.border1,
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cover {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-12xs);
+  background-color: var(--color-gray-100);
+}
+.border1 {
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 0 solid var(--white);
+  box-sizing: border-box;
+}
+.activeIconBackground {
+  position: absolute;
+  top: 0;
+  left: 12.5px;
+  background-color: var(--primary-black);
+  width: 1.9px;
+  height: 26.7px;
+}
+.activeIconBackground1,
+.plus1 {
+  position: absolute;
+  height: 26.7px;
+  z-index: 1;
+}
+.activeIconBackground1 {
+  top: 12.4px;
+  left: 26.7px;
+  background-color: var(--primary-black);
+  width: 1.9px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.plus1 {
+  top: 19.1px;
+  left: 18.1px;
+  width: 26.7px;
+}
+.activeIconBorderContainer {
+  height: 64px;
+  flex: 1;
+  position: relative;
+}
+.plusIcon1 {
+  width: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.alwaysChargedAt1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.youCanAlways {
+  width: 262px;
+  position: relative;
+  font-size: var(--paragraph-bold-size);
+  line-height: 24px;
+  font-family: var(--font-univers-55);
+  display: inline-block;
+  z-index: 1;
+}
+.activeBenefitDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.hoverIcon {
+  width: 89.7px;
+  height: 89.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 260px;
+  right: 104.3px;
+  object-fit: contain;
+  z-index: 1;
+}
+.active,
+.cardBackground {
+  position: relative;
+  max-width: 100%;
+}
+.active {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-361xl) var(--padding-21xl) var(--padding-30xl);
+  box-sizing: border-box;
+  gap: var(--gap-38xl);
+  z-index: 1;
+}
+.cardBackground {
+  width: 508px;
+  height: 1px;
+  background-color: var(--color-gainsboro);
+  z-index: 2;
+}
+.border2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.plusInner {
+  top: 0;
+  left: 12.5px;
+  background-color: var(--white);
+  width: 1.9px;
+}
+.plus2,
+.plusInner,
+.rectangleDiv {
+  position: absolute;
+  height: 26.7px;
+  display: none;
+}
+.rectangleDiv {
+  top: 12.4px;
+  left: 26.7px;
+  background-color: var(--white);
+  width: 1.9px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.plus2 {
+  top: 19.1px;
+  left: 18.1px;
+  width: 26.7px;
+  z-index: 1;
+}
+.border3,
+.plusIcon2 {
+  position: absolute;
+  left: 0;
+}
+.plusIcon2 {
+  height: 64px;
+  width: 64px;
+  margin: 0 !important;
+  bottom: 0;
+  z-index: 1;
+}
+.border3 {
+  top: 0;
+  border-radius: 50%;
+  border: 0 solid var(--white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.plusChild1,
+.plusChild2 {
+  position: absolute;
+  top: 0;
+  left: 12.5px;
+  background-color: var(--white);
+  width: 1.9px;
+  height: 26.7px;
+  display: none;
+}
+.plusChild2 {
+  top: 12.4px;
+  left: 26.7px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.plus3,
+.plusIcon3 {
+  position: absolute;
+  z-index: 1;
+}
+.plus3 {
+  top: 19.1px;
+  left: 18.1px;
+  width: 26.7px;
+  height: 26.7px;
+  display: none;
+}
+.plusIcon3 {
+  height: 64px;
+  width: 64px;
+  margin: 0 !important;
+  right: 45px;
+  bottom: 0;
+}
+.doubleIconBackground {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  transform: rotate(90deg);
+  z-index: 3;
+}
+.plusIconGroup {
+  width: 467px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-89xl) var(--padding-sm) var(--padding-214xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.alwaysChargedAt2,
+.alwaysChargedAt3 {
+  margin: 0;
+  width: 277px;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.alwaysChargedAt3 {
+  height: 58px;
+  width: 223px;
+  line-height: 120%;
+}
+.doubleIconDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-57xl);
+  max-width: 100%;
+}
+.benefitDetails {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.benefitDetails,
+.benefitItem,
+.benefits,
+.contentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contentWrapper {
+  align-self: stretch;
+  flex-direction: column;
+}
+.benefitItem,
+.benefits {
+  box-sizing: border-box;
+}
+.benefitItem {
+  width: 601px;
+  flex-direction: column;
+  padding: var(--padding-394xl) 0 0;
+}
+.benefits {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  position: relative;
+  gap: 33px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--white);
+  font-family: var(--h3);
+  background: url('/grid-background.png');
+  margin:0 auto;
+  width: 1440px;
+
+}
+@media screen and (max-width: 1300px) {
+  .benefits {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .active,
+  .benefit {
+    padding-top:501px;
+    box-sizing: border-box;
+  }
+  .active {
+    padding-top: var(--padding-228xl);
+    padding-bottom: var(--padding-13xl);
+  }
+  .plusIconGroup {
+    padding-left: var(--padding-97xl);
+    padding-right: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+  .doubleIconDescription {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: var(--gap-19xl);
+  }
+  .benefitItem {
+    padding-top: var(--padding-249xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .alwaysChargedAt,
+  .alwaysChargedAt1 {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .active {
+    gap: var(--gap-9xl);
+  }
+  .alwaysChargedAt2,
+  .alwaysChargedAt3 {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+  }
+}
